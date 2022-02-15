@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@500');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, button {
+    font-family: 'Roboto', sans-serif;
+} 
+
+body{
+
+    background-image: url(../img/Gotham_City.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    background-color: #BBBFCA;
+    width: 100%;
+    position: fixed;
+    top:0px;
+    z-index: 1000;
+    height: 30px;
+}
+
+.main-header nav ul {
+    display: flex; 
+    gap: 30px ; 
+    list-style: none;  
+    justify-content: center;
+    align-items:center
+}
+
+.main-header ul li a {
+    font-weight: 300;
+    font-size: 20px;
+    text-decoration: none;
+    color: #495464;
+}
+
+.main-header nav ul h1{
+    font-weight: 400;
+    font-size: 30px;
+    color: #495464;
+    flex-direction: row;
+}
+
+.batman-icon img{
+    width: 90px;
+}
+
+.batman-icon{
+    position: fixed;
+    bottom:0px;
+    right: 10px;
+    z-index: 999;
+   
+}
+
+.batman-icon{
+    position: fixed;
+    bottom:0px;
+    right: 10px;
+    z-index: 999;
+    transition: 1s;
+}
+
+.batman-icon:hover {
+    padding: 100px;
+    transform: scale(1.5);
+    filter: grayscale();
+}
+
+main {
+    padding: 100px;
+}
+
+button {
+    background-color: white;
+    color: rgb(249, 91, 91);
+}
+
+.reset {
+    background-color: black;
+}
+
+form {
+    background-color: rgba(142, 7, 7, 0.742);
+    width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 30px;
+    font-family: 'Darker Grotesque', sans-serif; 
+}
+
+
+label{
+    margin-top: 15px;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+
+
+label, input {
+    display: block;
+    transition: .5s;
+}
+
+.titulo {
+    text-align: center;
+    background-color: rgb(172, 6, 6);
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+h1 {
+    font-family: 'Darker Grotesque', sans-serif;
+}
+
+fieldset {
+    padding: 10px;
+    color: whitesmoke;
+    margin-bottom: 20px;
+}
+
+
+legend {
+    font-size: 24px;
+    color: whitesmoke;
+    font-family: 'Darker Grotesque', sans-serif;
+
+}
+
+input, textarea, select {
+    transition: .2s;
+}
+
+textarea:hover  {
+    transform: scale(1.2);
+    margin: 20px;
+}
+
+select:hover  {
+    transform: scale(1.3);
+    margin: 20px;
+}
+
+input:hover {
+    transform: scale(1.3);
+    margin-left: 20px;
+}
+
+.maioridade {
+    display: inline;
+}
+
+.interesses {
+    display: inline;
+}
+
+button {
+    width: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    transition: .5s;
+
+}
+
+button:hover {
+    transform: scale(1.3);
+}

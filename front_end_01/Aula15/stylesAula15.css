@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    display: grid;
+    grid-template-columns: 200px auto; /* Quando coloco o auto ou f1, ele pega o resto da tela e coloca em uma coluna*/
+    grid-template-areas: 
+    'main-header main-header'
+    'main-aside  main-content'
+    'main-footer main-footer'
+    ;
+}
+
+header{
+    width: 100%;
+    background-color: red;
+    grid-area:main-header;
+    height: 30px;
+    position: fixed;
+}
+
+main{
+    background-color: royalblue;
+    grid-area: main-content;
+    height: 800px;
+    padding-top: 30px;
+}
+
+aside{
+    background-color: salmon;
+    grid-area: main-aside;
+    padding-top: 30px;
+}
+
+footer{
+    background-color: skyblue;
+    grid-area: main-footer;
+}
+

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Open+Sans:wght@300;400;500;700&family=Roboto:wght@100;300;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #EDF2F6;
+}
+
+.navbar-custom{
+    background-color: #F5EDED;
+}
+
+
+.slider-home{
+    background-size: cover;
+    width: 100%;
+    height: 100px;
+    background-image: url(../img/fundo-netflix.jpg);
+    background-attachment: fixed;
+}
+
+.navbar-light .nav-item.active .nav-link,
+.navbar-light .nav-item .nav-link:active,
+.navbar-light .nav-item .nav-link:focus,
+.navbar-light .nav-item:hover .nav-link {
+    color: #E51B3E;
+}
+
+/* Aqui começa a edição do conteudo*/
+
+
+
+.filme-main img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.video{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.card-body h1{
+    font-size: 64px;
+    font-weight: 900;
+
+}
+
+.card-body p{
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.card-body span{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    'h3 h5'
+    'h4 h6'
+   ;
+
+}
+
+.card-body span h3{
+    font-size: 24px;
+    font-weight: 500;
+    grid-area: h3;
+}
+
+.card-body span h4{
+    font-size: 18px;
+    font-weight: 400;
+    color: blue;
+    grid-area: h4;
+}
+
+.card-body span h5{
+    font-size: 24px;
+    font-weight: 500;
+    grid-area: h5;
+}
+
+.card-body span h6{
+    font-size: 18px;
+    font-weight: 400;
+    color: blue;
+    grid-area: h6;
+}
+
+/* Edição do footer */
+
+h1, h2, h3, h4, h5, h6, p{
+    font-family: 'Lato', sans-serif;
+ }
+ 
+ footer{
+     background-color: #444444;
+     text-align: center;
+ }
+ 
+ footer h1{
+     font-size: 1.2rem;
+     font-weight: 800;
+     color: #d8d8d8f6;
+     
+ }
+ 
+ footer h2{
+     font-size: 1rem;
+     font-weight: 500;
+     color: #d8d8d8f6;
+ }
+ 
+ footer h3{
+     font-size: .8rem;
+     font-weight: 300;
+     color: #d8d8d8f6;
+ }
+ .test1{
+     width: 30px;
+ }

@@ -1,0 +1,57 @@
+/* tirar as configurações do navegador */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.quadrado{
+    height: 150px;
+    width: 150px;
+}
+
+.pequeno{
+    height: 50px;
+    width: 50px;
+}
+
+.quadrado1{
+
+    background-color: rgb(255, 0, 170); 
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+} 
+
+.quadrado2{
+
+    background-color: rgb(255, 0, 34);
+
+} 
+
+.quadrado3{
+
+    background-color: rgb(0, 0, 255);
+    
+} 
+
+.quadradop1{
+
+    background-color: rgb(0, 0, 255);
+    
+    
+} 
+
+.quadradop2{
+
+    background-color: rgb(255, 0, 170);
+    
+}
+
+.quadradop3{
+
+    background-color: rgb(255, 0, 35);
+    
+}

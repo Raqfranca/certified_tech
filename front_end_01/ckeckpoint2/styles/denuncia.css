@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, a{
+    font-family: 'Roboto', sans-serif;
+} 
+
+body{
+
+    background-image: url(../img/Gotham_City.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    background-color: #BBBFCA;
+    width: 100%;
+    position: fixed;
+    top:0px;
+    z-index: 1000;
+    height: 30px;
+    
+}
+
+.main-header nav ul {
+    display: flex; 
+    gap: 30px ; 
+    list-style: none;  
+    justify-content: center;
+    align-items:center
+}
+
+.main-header ul li a {
+    font-weight: 300;
+    font-size: 20px;
+    text-decoration: none;
+    color: #495464;
+    
+
+}
+
+.main-header nav ul h1{
+    font-weight: 400;
+    font-size: 30px;
+    color: #495464;
+    flex-direction: row;
+}
+
+.contend-h1{
+    font-size: 25px;
+    text-align: center;
+    padding: 30px 10px 0;
+    color: #F4F4F2;
+    font-weight: 400;
+    background-color:#a2b1e7bb ;
+} 
+
+.contend-main form {
+    background-color: #276778b7;
+    display: block;
+    width: 500px;
+    height: 600px;
+    margin: 20px auto 0;
+    border-radius: 15px;
+}
+
+.contend-main form h1{
+    color: #D3E0EA;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+}
+
+input, label, textarea, select {
+
+    display: block;
+    margin: 5px auto;
+    border-radius: 4px;
+    border-width: 1px;
+    font-family: 'Roboto', sans-serif;
+    padding: 50px; 
+}
+
+
+label{
+    font-size: 14px;
+    font-weight:500;
+    color: #D3E0EA;
+    padding: 5px;
+    text-align: center;
+}
+
+input, select{
+    padding: 2px;
+}
+
+select{
+    margin-bottom: 15px;
+
+}
+
+textarea {
+    padding: 80px;
+    resize: none;
+    height: auto; 
+}
+
+.button-main{
+    display: block;
+    text-align: center;
+    
+}
+
+.button-main button {
+    margin: 0 auto;
+    display: inline;
+    width: 90px;
+    height: 30px;
+    
+    
+}
+
+.enviar {
+    text-align: center;
+    background-color: #F6F5F5;
+    border:none;
+    color: #1687A7;
+    font-weight: 500;
+    border-radius: 5px;
+
+    
+}
+
+.enviar:hover {
+    background-color: #D3E0EA;
+    font-weight: bolder;
+}
+
+
+.limpar {
+    text-align: center;
+    background-color:#F6F5F5;
+    border:none;
+    color: #1687A7;
+    font-weight: 500;
+    border-radius: 5px;
+   
+}
+.limpar:hover {
+    background-color: #D3E0EA;  
+    font-weight: bolder;
+}
+
+
+.batman-icon img{
+    width: 90px;
+}
+
+.batman-icon{
+    position: fixed;
+    bottom:0px;
+    right: 10px;
+    z-index: 999;
+   
+}
+
+.batman-icon{
+    position: fixed;
+    bottom:0px;
+    right: 10px;
+    z-index: 999;
+    transition: 1s;
+}
+
+.batman-icon:hover {
+    padding: 100px;
+    transform: scale(1.5);
+    filter: grayscale();
+}
+

@@ -1,0 +1,77 @@
+/* 
+Objetivo
+Agora que já vimos as diferentes formas de agrupar itens utilizando Flexbox, vamos construir uma interface de um site focado em streaming de vídeos (qualquer semelhança com um site real é mera coincidência).
+Para isso, iremos criar um elemento pai, alguns elementos filhos onde deverão conter uma imagem para representar a capa do vídeo, um título e o número de visualizações.
+O resultado que queremos obter é parecido com esse:
+
+https://docs.google.com/document/d/1UM474BqyT4oAsNB1VCWZwRc6U7NjAvef/edit#heading=h.30j0zll
+
+*/
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, a{
+
+    font-family: 'Roboto', sans-serif;
+    color: #EEEEEE;
+
+}
+
+.header-main{
+    display: flex;
+    justify-content: center;
+    background-color: #262626;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 50px;
+
+}
+
+.header-main h1{
+    font-weight: 400;
+}
+
+.videos{
+    background-color: #363636;
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    padding: 32px;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+
+.video{
+    width: 400px;
+}
+
+.video img{
+
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.video h1{
+   font-weight: 400;
+   font-size: 20px;
+}
+
+.video h2{
+    font-weight: 300;
+    font-size: 10px;
+}
+

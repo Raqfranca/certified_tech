@@ -1,0 +1,101 @@
+<!-- Aula 11 Personalizando formulários -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stylesAula11.css">
+</head>
+<body>
+
+    <form action="registro" method="post">
+
+        <h1>Cadastro de usuario</h1>
+
+            <input type="radio" name="person" id="pf">
+            <label for="pf">Pessoa física</label>
+
+      
+        <label for="Nome"> Nome: </label>
+        <input tabindex="3" type="text" name="Nome" id="Nome">
+
+        <input type="date" name="date" value="1997-10-15" min="1997-10-11" max="2021-12-08">
+
+        <label for="senha"> Senha: </label>
+        <input tabindex="2" type="password" name="senha" id="senha">
+
+        <label for="email"> E-mail: </label>
+        <input tabindex="1" type="email" name="email" id="email">
+
+        <label for="telefone"> Telefone: </label>
+        <input type="number" name="telefone" id="telefone">
+
+        <label for="comentario"> Dúvidas: </label>
+        <textarea name="comentario" id="comentario">Sua dúvida</textarea>
+
+        <label for="estado"> Escolha o seu estado: </label>
+        <select name="Estado" id="estado">
+
+            <option selected>  </option>
+            <option >SP</option>
+            <option>MG</option>
+            <option>RJ</option>
+            <option>RS</option>
+            <option>GO</option>
+            <option>DF</option>
+        </select>
+
+        <p> Escolha um carro
+            <select>
+                <optgroup label="Volkswagen">
+                <option>Onix</option>
+                </optgroup>
+                <optgroup label="Jeep">
+                <option>Renegade</option>
+                <option>Compass</option>
+                </optgroup>
+                <optgroup label="Ford" disabled>
+                <option>Ka</option>
+                <option>Focus</option>
+                <option>Fiesta</option>
+                </optgroup>
+             </select>
+        </p>
+
+        <p> Você está trabalhando no momento?</p>
+
+            <div class="teste">
+            <input type="radio" id="Sim" name="s/n" value="Sim">
+            <label for="Sim">Sim</label>
+            <input type="radio" id="Não" name="s/n" value="Não">
+            <label for="Não">Não</label>
+            </div>
+
+            <p>Qual o seu hobbie?</p>
+
+            <div>
+                <input type="checkbox" id="Surf" name="hobbie" value="Surf">
+                <label for="Surf">Surf</label>
+                <input type="checkbox" id="Assistir netflix" name="hobbie" value="Assistir netflix">
+                <label for="Assistir netflix">Assistir netflix</label>
+
+            </div>
+
+
+        <p>
+            <button type="submit">Enviar</button>
+
+            <button type="reset">Cancelar</button>
+        </p>
+
+
+        
+    </form>    
+
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+/*Instruções
+
+As caixas devem ficar distribuídas como no exemplo no final desse documento, 2 em cada extremidade e uma ao centro.
+Todas as caixas devem ter um texto dentro.
+As caixas devem ter uma outra caixa dentro bem ao centro.
+Quando houver o scroll do mouse, a caixa que está no centro da tela, deverá ficar fixada no mesmo lugar com o posicionamento fixo.
+
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.quadrado{
+    width: 100px;
+    height: 100px;
+    font-size: 5px;
+}
+
+.quadrado h1{
+    width: 50px;
+    height: 50px;
+    background-color: snow;
+}
+
+.quadrado1{
+    background-color: blue;
+    position: absolute;
+    right: 0;
+   
+}
+
+.quadrado1 h1{
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    text-align: center;
+   
+}
+
+
+.quadrado2{
+    background-color: red;
+
+}
+
+.quadrado2 h1{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    text-align: center;
+}
+
+.quadrado3{
+    background-color: slateblue;
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+}
+
+.quadrado3 h1{
+    position: absolute;
+    left: 25px;
+    top: 25px;
+    text-align: center;
+}

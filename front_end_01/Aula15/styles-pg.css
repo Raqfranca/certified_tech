@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 100px 1fr; /* Nessa parte se define as colunas do grid, aqui eu coloquei que seram duas colunas, o fr significa que a segunda coluna será feita com o resto do espaço*/
+    grid-template-areas: 
+    'header header'
+    'aside  main'
+    'footer footer'
+    ;
+}
+
+header{
+    background-color: #FCFFA6;
+    grid-area: header; /*  usado para nomear a area para depois utilizar esse nome no grid*/ 
+    height: 80px;
+}
+
+aside{
+    background-color: #C1FFD7;
+    grid-area: aside;
+    height: 400px;
+}
+
+main{
+    background-color: #B5DEFF;
+    grid-area: main;
+}
+
+footer{
+    background-color: #CAB8FF;
+    grid-area: footer;
+    height: 50px;
+}

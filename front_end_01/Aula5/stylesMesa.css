@@ -1,0 +1,47 @@
+body {
+
+    background-color : #b9e1fc;
+
+    color: #4f4f52;
+
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.master-title {
+
+    color: #5454ec;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    font-size: 40px;
+
+}
+
+.job-title {
+
+    background-color: #97969698;
+
+    color: #7272f8;
+
+    font-size: 20px;
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#high {
+
+    color: #7272f8;
+}
+
+ul {
+
+    background-color: #97969698;
+
+    color: #7272f8;
+
+    font-size: 15px;
+
+}

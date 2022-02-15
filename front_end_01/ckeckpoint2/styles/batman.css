@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+@font-face {
+    font-family: batman ;
+    src: url(../font/batmfa__.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, a{
+    font-family: 'Roboto', sans-serif;
+} 
+
+body{
+
+    background-image: url(../img/Gotham_City.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    background-color: #BBBFCA;
+    width: 100%;
+    position: fixed;
+    top:0px;
+    z-index: 1000;
+    height: 30px;
+    
+}
+
+.main-header nav ul {
+    display: flex; 
+    gap: 30px ; 
+    list-style: none;  
+    justify-content: center;
+    align-items:center
+}
+
+.main-header ul li a {
+    font-weight: 300;
+    font-size: 20px;
+    text-decoration: none;
+    color: #495464;
+    
+
+}
+
+.main-header nav ul h1{
+    font-weight: 400;
+    font-size: 30px;
+    color: #495464;
+    flex-direction: row;
+}
+
+.batman {
+    font-family: batman;
+    color:#d80000;
+    font-size: 100px;
+    text-align: center;
+    padding: 30px;
+}
+
+.batman:hover {
+    color:#030000;  
+    font-weight: bolder;
+}
+
+.principal  div{
+    text-align: center;
+}
+
+article {
+    margin: 20px auto 0;
+    background-color: #950101c7;
+    width: 800px;
+    height: 190px;
+    border-radius: 6px;
+} 
+
+article h1{
+    text-align: center;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+
+
+.batman-icon img{
+    width: 90px;
+}
+
+.batman-icon{
+    position: fixed;
+    bottom:0px;
+    right: 10px;
+    z-index: 999;
+   
+}
+
+.batman-icon{
+    position: fixed;
+    bottom:0px;
+    right: 10px;
+    z-index: 999;
+    transition: 1s;
+}
+
+.batman-icon:hover {
+    padding: 100px;
+    transform: scale(1.5);
+    filter: grayscale();
+}

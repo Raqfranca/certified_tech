@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/* Fonte importada do google fontes  */
+
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+
+h1{
+
+    font-family: 'Roboto', sans-serif;
+}
+
+
+article {
+
+background-image: url("https://dicasnovayork.com.br/wp-content/uploads/2018/09/central_sheap-1050x700.jpg");
+background-repeat: no-repeat;  /*   */
+background-size: cover;
+background-position: center;
+height: 500px;
+
+}

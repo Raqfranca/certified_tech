@@ -1,0 +1,13 @@
+/* Aula 14 Caixa flexíveis */ 
+
+.menu-main{
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    background-color: red;
+    /* flex-direction: column; // Coloca os elementos filhos em colunas */
+    flex-direction: row;  /* Alinha os elementos filhos em uma fila*/
+    flex-wrap: wrap; /* Se os elementos não cabem mais na linha, eles vão para a linha de baixo*/
+    justify-content: center;  /* os elementos filhos ficam no centro da página */ 
+    align-items: center;
+}

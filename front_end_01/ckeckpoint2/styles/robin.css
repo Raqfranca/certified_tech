@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p, a{
+    font-family: 'Roboto', sans-serif;
+} 
+
+body{
+
+    background-image: url(../img/Gotham_City.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    background-color: #BBBFCA;
+    width: 100%;
+    position: fixed;
+    top:0px;
+    z-index: 1000;
+    height: 30px;
+    
+}
+
+.main-header nav ul {
+    display: flex; 
+    gap: 30px ; 
+    list-style: none;  
+    justify-content: center;
+    align-items:center
+}
+
+.main-header ul li a {
+    font-weight: 300;
+    font-size: 20px;
+    text-decoration: none;
+    color: #495464;
+    
+
+}
+
+.main-header nav ul h1{
+    font-weight: 400;
+    font-size: 30px;
+    color: #495464;
+    flex-direction: row;
+}
+
+form {
+    background: #276778b7;
+    max-width: 40%;
+    margin: 100px auto;
+    padding: 10px 30px;
+    color: white;
+}
+
+form input, form label, form select {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+input.waiver-checkbox {
+    display: inline;
+}
+
+input.waiver-checkbox:checked {
+    accent-color: yellow;
+    scale: 1.3;
+    transition: all 0.4s;
+}
+
+input.waiver-checkbox + label {
+    display: inline;
+    margin-left: 12px;
+}
+
+form div {
+    text-align: center;
+}
+
+form button {
+    padding: 4px 20px;
+}
+
+.reset-btn {
+    display: block;
+    border: none;
+    color: crimson;
+    margin: 0 auto;
+    background-color: transparent;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+form h2 {
+    text-align: center;
+}
+
+.batman-icon img{
+    width: 90px;
+}
+
+.batman-icon{
+    position: fixed;
+    bottom:0px;
+    right: 10px;
+    z-index: 999;
+   
+}
+
+.batman-icon{
+    position: fixed;
+    bottom:0px;
+    right: 10px;
+    z-index: 999;
+    transition: 1s;
+}
+
+.batman-icon:hover {
+    padding: 100px;
+    transform: scale(1.5);
+    filter: grayscale();
+}

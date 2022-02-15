@@ -1,0 +1,51 @@
+<!-- Aula 10 Introdução aos formulários -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./stylesAula10.css">
+  <title>Document</title>
+</head>
+<body>
+  <main>
+
+    <form>
+      <h1>Cadastro de usuário</h1>
+    
+     
+        <label for="username">Nome de usuário</label>
+        <input type="text" name="username" id="username">
+    
+      
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email">
+        
+        
+        <label for="password">Senha</label>
+        <input type="password" name="password" id="password">
+        
+
+        <label for="obs">Observações</label>
+        <textarea name="obs" id="obs"></textarea>
+        
+
+        <label for="city"></label>
+        <select name="city" id="city">
+          <option value="">São Paulo</option>
+          <option value="">Rio de janeiro</option>
+          <option value="">Florianopolis</option>
+        </select>
+   
+         <button class="buttonReset" type="reset">Limpar formulário</button>
+         <button class="buttonSend" type="submit">Enviar formulário</button>
+
+        
+    </form>
+
+
+  </main>
+</body>
+</html>

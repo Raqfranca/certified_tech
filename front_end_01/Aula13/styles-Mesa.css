@@ -1,0 +1,63 @@
+/*Exercício 01:
+Vocês devem animar algumas coisas com determinada instrução do CSS:
+Animar uma imagem de bola indo da esquerda para a direita com @keyframe, sendo que no começo da transição ela está invisível, e vai aparecendo conforme a animação acontece.
+*/
+
+.circulo{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin: 30px;
+    animation-name: esquerda;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes esquerda {
+    0% {
+
+        transform: translate(300px, 0px);
+        opacity: .25;
+    }
+    50% {
+
+        transform: translate(50px, 0px);
+        opacity: 1;
+    }
+    100% {
+
+        transform: translate(0px, 0px);
+        opacity: .0;
+    }
+}
+
+/* Alterar o estado de um ícone de sua preferência utilizando transform, é necessário fazer essa animação de uma das formas: utilizando scale() e skew() ou rotate() e translate() */
+
+.github{
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    transition-duration: 2s;
+}
+
+.github:hover{
+    transform: scale(2);
+}
+
+/* Animar um botão com transition, fazendo com que o background-color dele mude de cor com uma transição suave */
+
+.main-button{
+    color: #F5EEDC;
+    background-color: #97BFB4;
+    border-radius: 30px;
+    font-size: 30px;
+    padding: 20px;
+    transition-duration: 0.5s;
+    transition-property: background-color, color;
+    }
+
+.main-button:hover{
+    background-color: #DD4A48;
+   color: #4F091D;
+}
