@@ -5,8 +5,8 @@ Atividades executadas ao longo do curso CTD - Certified Tech Developer pela Digi
 
 <table>
     <tr>
-        <td>1°Bimestre</td>
-      <td>2°Bimestre</td>
+       <td>1° Bimestre</td>
+      <td>2° Bimestre</td>
     </tr>
     <tr>
         <td>
