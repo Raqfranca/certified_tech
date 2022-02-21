@@ -5,8 +5,9 @@ Atividades executadas ao longo do curso CTD - Certified Tech Developer pela Digi
 
 <table>
     <tr>
-       <td>1° Bimestre</td>
-      <td>2° Bimestre</td>
+        <td>1° Bimestre</td>
+        <td>2° Bimestre</td>
+        <td>3° Bimestre</td> 
     </tr>
     <tr>
         <td>
@@ -15,9 +16,14 @@ Atividades executadas ao longo do curso CTD - Certified Tech Developer pela Digi
             - Learning Agility
         </td>
         <td>
-            - Front-end</br>
+            - Front-end I</br>
             - Programação Imperativa </br>
             - Metodologias Ágeis
+        </td>
+        <td>
+            - Front-end II </br>
+            - Infraestrutura I </br>
+            - TeamWork & Collaboration 
         </td>
     </tr>
 </table>
