@@ -1,7 +1,7 @@
 # **Certified Tech**
 Atividades executadas ao longo do curso CTD - Certified Tech Developer pela Digital House.
 
-## Matérias já estudadas:
+## Matérias estudadas:
 
 <table>
     <tr>
