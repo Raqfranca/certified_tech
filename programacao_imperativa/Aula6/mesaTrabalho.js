@@ -45,8 +45,6 @@ console.log (divisao(3,6));
 // No seu arquivo calculadora.js,  a partir das 4 funções feitas anteriormente, crie um console.log no qual você irá colocar uma string para indicar que abaixo dela você começará a testar as funções, por exemplo:
 //console.log ("-------------- Teste de Operações / Calculadora --------------")
 
-console.log ("-------------- Teste de Operações / Calculadora --------------")
-
 //Execute a função que soma e a função que subtrai, passando quaisquer dois números como argumentos. Mostrar resultados no console.
 
 console.log (adicionar(5,6));

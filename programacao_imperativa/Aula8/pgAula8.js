@@ -1,6 +1,6 @@
 // Aula 8 - Controlando o fluxo da aplicação 
 
-let dia = "sabado"
+let dia = "domingo"
 
 if(dia == "domingo"){
     console.log (" Fim de semana");
@@ -14,6 +14,8 @@ else{
     console.log("Trabaho :(");
 }
 
+
+
 let idade = 19;
 let acesso = ' ';
 
@@ -25,6 +27,42 @@ if (idade < 16) {
     acesso = 'Acesso liberado';
 }
 
-// Micro dasafio
+// if ternário 
 
+// variavel = condição ? expressão para true: declaração para false;
+
+
+let valor = false;
+
+let resultado = valor == true ? "O valor é true - verdadeiro" : "O valor é false - falso"; 
+
+console.log(resultado); 
+
+//Switch
+
+/*
+switch(valor){
+    case "valorA":
+        - código a ser executado se valorA for verdadeiro.
+        break;
+    default:
+        - código a ser executado se nenhum dos casos for verdadeiro.          
+}
+*/
+
+
+let diaSemana = "quarta"
+
+switch(diaSemana){
+    case "segunda":
+        console.log("Ir na academia");
+        break;
+
+    case "terça":
+        console.log("Ir no mercado");
+        break;   
+
+    default:
+        console.log("Sem compromisso");         
+}
 
